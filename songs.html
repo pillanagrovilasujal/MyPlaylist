@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>MyMusic – Songs</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+<style>
+    /* Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Body */
+body {
+    font-family: "Segoe UI", Arial, sans-serif;
+    background-color: #fdf6f0;   /* light peach */
+    color: #333;
+}
+
+/* Header */
+header {
+    background-color: #ffe4e6;   /* light pink */
+    padding: 20px;
+    text-align: center;
+    border-bottom: 2px solid #fecdd3;
+}
+
+header h1 {
+    color: #9d174d;              /* soft maroon */
+    margin-bottom: 10px;
+}
+
+/* Navigation */
+nav a {
+    text-decoration: none;
+    margin: 0 12px;
+    color: #be185d;
+    font-weight: 600;
+}
+
+nav a:hover {
+    color: #831843;
+    border-bottom: 2px solid #831843;
+}
+
+/* Content boxes */
+.box {
+    background-color: #ffffff;
+    width: 70%;
+    margin: 30px auto;
+    padding: 25px;
+    border-radius: 12px;
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.08);
+}
+
+/* Headings */
+.box h2 {
+    text-align: center;
+    color: #7c2d12;
+    margin-bottom: 15px;
+}
+
+/* Song list */
+ul {
+    list-style-type: square;
+    padding-left: 40px;
+    color: #444;
+}
+
+ul li {
+    margin: 8px 0;
+}
+
+/* Table styling */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 10px;
+}
+
+th {
+    background-color: #fde68a;   /* light yellow */
+    padding: 10px;
+    text-align: left;
+}
+
+td {
+    background-color: #fff7ed;
+    padding: 10px;
+    border-bottom: 1px solid #fcd34d;
+}
+
+/* Video section */
+iframe {
+    display: block;
+    margin: 0 auto;
+    border-radius: 10px;
+    border: 2px solid #fbcfe8;
+}
+
+/* Footer */
+footer {
+    background-color: #fee2e2;   /* very light red */
+    text-align: center;
+    padding: 15px;
+    margin-top: 40px;
+    color: #7f1d1d;
+}
+</style>
+<header>
+    <h1>MyMusic</h1>
+    <nav>
+        <a href="index.html">Home</a>
+        <a href="songs.html">Songs</a>
+        <a href="playlist.html">Playlist</a>
+        <a href="contact.html">Contact</a>
+    </nav>
+</header>
+
+<section class="box">
+    <h2>Popular Songs</h2>
+    <ul>
+        <li>Blinding Lights – The Weeknd</li>
+        <li>Shape of You – Ed Sheeran</li>
+        <li>Levitating – Dua Lipa</li>
+        <li>Stay – Justin Bieber</li>
+    </ul>
+</section>
+
+<section class="box">
+    <h2>Top Charts</h2>
+    <table>
+        <tr>
+            <th>Song</th>
+            <th>Artist</th>
+            <th>Duration</th>
+        </tr>
+        <tr>
+            <td>Blinding Lights</td>
+            <td>The Weeknd</td>
+            <td>3:20</td>
+        </tr>
+        <tr>
+            <td>Shape of You</td>
+            <td>Ed Sheeran</td>
+            <td>4:10</td>
+        </tr>
+        <tr>
+            <td>Levitating</td>
+            <td>Dua Lipa</td>
+            <td>3:23</td>
+        </tr>
+    </table>
+</section>
+
+<section class="box">
+    <h2>Music Video</h2>
+    <iframe width="420" height="236"
+        src="https://www.youtube.com/embed/jYo6yAQ8mvU"
+        allowfullscreen>
+    </iframe>
+</section>
+
+<footer>
+    <p>© 2025 MyMusic</p>
+</footer>
+
+</body>
+</html>
